@@ -1,0 +1,32 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "expense-tracker", "expense-tracker", "{B91573E3-B7C6-229A-D0F6-215F3A68398B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "backend", "backend", "{AA7F6F6E-98A9-60EC-5A3C-7F36B97DCA5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpenseTracker", "expense-tracker\backend\ExpenseTracker\ExpenseTracker.csproj", "{DF5D01E7-FE8B-1FE8-D934-03A503D09997}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF5D01E7-FE8B-1FE8-D934-03A503D09997}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF5D01E7-FE8B-1FE8-D934-03A503D09997}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF5D01E7-FE8B-1FE8-D934-03A503D09997}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF5D01E7-FE8B-1FE8-D934-03A503D09997}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AA7F6F6E-98A9-60EC-5A3C-7F36B97DCA5A} = {B91573E3-B7C6-229A-D0F6-215F3A68398B}
+		{DF5D01E7-FE8B-1FE8-D934-03A503D09997} = {AA7F6F6E-98A9-60EC-5A3C-7F36B97DCA5A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {231D8591-B61B-4C7F-A8F0-330FB483BA9E}
+	EndGlobalSection
+EndGlobal
