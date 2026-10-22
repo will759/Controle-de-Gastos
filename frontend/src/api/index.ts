@@ -9,7 +9,7 @@ import type {
   PersonTotalsReport, CategoryTotalsReport,
 } from '../types';
 
-const BASE = '/api';
+const BASE = `${import.meta.env.VITE_API_URL}/api`;
 
 /** Wrapper genérico que lança um erro legível quando a resposta não é 2xx. */
 async function request<T>(url: string, options?: RequestInit): Promise<T> {
